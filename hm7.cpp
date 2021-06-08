@@ -7,6 +7,10 @@
 #define MASVALUE ((*(*arr) + (2)) + (2))
 
 //3
+#define COMBACK ((sizeof (ar1)) / (sizeof (*ar1)))
+
+
+
 
 int main (int argc, const char** argv) {
 
@@ -23,9 +27,8 @@ int n = rand() % 90;
 std::cout << std::endl;
 
 //3
-
-
-
+int ar1[15];
+std::cout << COMBACK << std::endl;
 
 
   return 0;
